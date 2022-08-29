@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import {ICheatCodes} from "./ICheatCodes.sol";
-import {DSTest} from "../../lib/ds-test/src/test.sol";
+import {DSTest} from "../../lib/DSTest.sol";
 
 abstract contract TestHelpers is DSTest {
     ICheatCodes public cheats = ICheatCodes(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D);
